@@ -7,10 +7,20 @@ Secondly, write a caluculate_percentage_above_average() function to
 calculate the percentage of grades that are aboce the average grade.
 
 Function 1 will kickstart the application, will extract from
-the Final.txt fil and close after the information has been collected.
-Function 2 named average grade will collect the information from
-Final.txt and will use the average function to average it.
-Function 3 named percentage of grades above average will calculate
+the Final.txt file and calculate the average grade and close after the information has been collected.
+Function 2 named percentage of grades above average will calculate
 the percentage of grades that are above the average grade.
 """
 
+"""
+main():
+    set Final.txt = input()
+    num_grades = list
+    average = sum(grades) len(grades)
+    calculate above average percent
+
+above_average():
+    read in Final.txt
+    read from list 
+    close file
+"""
