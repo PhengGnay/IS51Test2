@@ -24,3 +24,18 @@ above_average():
     read from list 
     close file
 """
+
+infile = open("Final.txt", "r")
+num_grades = [line.rstrip() for line in infile]
+infile.close()
+for i in range(len(num_grades)):
+    num_grades[i] = int(num_grades[i])
+average = sum(num_grades) / len(num_grades)
+num = 0
+for num_grade in num_grades:
+        if num_grades > average:
+            num += 1
+print("Number of grades: ", len(num_grades))
+print("Average grade: ", average)
+print("Percentage of grades above average: {0:2f}%".format(100*num /len(num_grades)))
+
